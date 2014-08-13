@@ -8,6 +8,14 @@
 
 #import "BrainStormingAppDelegate.h"
 
+//ユーザーインポート
+#import "SentenceArrayGenerator.h"
+
+@interface BrainStormingAppDelegate()
+
+
+@end
+
 @implementation BrainStormingAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
