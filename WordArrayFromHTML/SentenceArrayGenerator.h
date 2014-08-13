@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SentenceArrayGenerator : NSObject
+@interface SentenceArrayGenerator : NSObject<NSURLConnectionDataDelegate>
+
++(NSArray *)GenerateSentenceArrayFromURL: (NSURL *)url;
 
 @end
