@@ -18,6 +18,7 @@
 		C97733DA199B4DD3002B9B68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97733B9199B4DD2002B9B68 /* Cocoa.framework */; };
 		C97733E2199B4DD3002B9B68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97733E0199B4DD3002B9B68 /* InfoPlist.strings */; };
 		C97733E4199B4DD3002B9B68 /* WordArrayFromHTMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97733E3199B4DD3002B9B68 /* WordArrayFromHTMLTests.m */; };
+		C97733F5199B57BA002B9B68 /* SentenceArrayGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C97733F4199B57BA002B9B68 /* SentenceArrayGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C97733DF199B4DD3002B9B68 /* WordArrayFromHTMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordArrayFromHTMLTests-Info.plist"; sourceTree = "<group>"; };
 		C97733E1199B4DD3002B9B68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C97733E3199B4DD3002B9B68 /* WordArrayFromHTMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordArrayFromHTMLTests.m; sourceTree = "<group>"; };
+		C97733F3199B57BA002B9B68 /* SentenceArrayGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceArrayGenerator.h; sourceTree = "<group>"; };
+		C97733F4199B57BA002B9B68 /* SentenceArrayGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceArrayGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				C97733CB199B4DD2002B9B68 /* BrainStormingAppDelegate.h */,
 				C97733CC199B4DD2002B9B68 /* BrainStormingAppDelegate.m */,
 				C97733CE199B4DD3002B9B68 /* MainMenu.xib */,
+				C97733F3199B57BA002B9B68 /* SentenceArrayGenerator.h */,
+				C97733F4199B57BA002B9B68 /* SentenceArrayGenerator.m */,
 				C97733D1199B4DD3002B9B68 /* Images.xcassets */,
 				C97733C0199B4DD2002B9B68 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97733F5199B57BA002B9B68 /* SentenceArrayGenerator.m in Sources */,
 				C97733CD199B4DD2002B9B68 /* BrainStormingAppDelegate.m in Sources */,
 				C97733C6199B4DD2002B9B68 /* main.m in Sources */,
 			);
